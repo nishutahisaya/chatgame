@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#chat-container {
+    width: 300px;
+    margin: 100px auto;
+}
+
+#messages {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+#messages li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+#form {
+    display: flex;
+}
+
+#input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+}
